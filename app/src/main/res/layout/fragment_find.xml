@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="fragments.fragmentFind">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menemukan"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textFontWeight="900"
+        android:textSize="25sp"
+        android:layout_marginBottom="60dp"
+        />
+    <EditText
+        android:id="@+id/inputItemName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="Nama Barang Yang Ditemukan"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/inputItemPlace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="Tempat ditemukan"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/inputItemMessege"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:hint="Pesan untuk pemilik, ex Your Contact"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/pickImageFind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Image"
+        android:drawableRight="@drawable/baseline_file_upload_24"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageNameView"/>
+
+    <Button
+        android:id="@+id/findPostBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Post"/>
+</LinearLayout>

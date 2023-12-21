@@ -1,0 +1,12 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fragments.fragmentProfile">
+
+    <!-- TODO: Update blank fragment layout -->
+    <include layout="@layout/logged_in" android:id="@+id/logedIn" android:visibility="gone" />
+
+    <!-- Bagian untuk tampilan saat belum login -->
+    <include layout="@layout/not_logged" android:id="@+id/notLogged" android:visibility="gone" />
+</FrameLayout>

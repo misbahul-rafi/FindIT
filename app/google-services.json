@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "735410587835",
+    "firebase_url": "https://findit-3e-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "findit-3e",
+    "storage_bucket": "findit-3e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:735410587835:android:a08441aa7cee612cfb419e",
+        "android_client_info": {
+          "package_name": "com.example.findit"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCdZitFZy85f_7lAPIPdNjmM9X_yRmBN4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:735410587835:android:8ec3348677184a88fb419e",
+        "android_client_info": {
+          "package_name": "com.example.test"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCdZitFZy85f_7lAPIPdNjmM9X_yRmBN4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
